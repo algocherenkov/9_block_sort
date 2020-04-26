@@ -1,8 +1,9 @@
 #pragma once
 #include <vector>
+#include <string>
 
 namespace sortings {
-    void bucketSort(std::vector<unsigned short>& buff, int k);
-    void countSort(std::vector<int>& buff);
-    void radixSort(std::vector<int>& buff);
+    void bucketSort(std::string& filename, int k, int max);
+    void countSort(std::string& filename);
+    void radixSort(std::string& filename, int maxValue);
 }
