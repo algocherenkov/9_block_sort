@@ -239,6 +239,8 @@ void sortings::radixSort(std::string& filename, int maxValue)
     }
 }
 
+/*********************************************************MERGE SORT****************************************************************/
+
 void mergeFiles(std::string& filename, std::vector<unsigned short>& elementsFromFile2, int nElementsInFile2)
 {
     std::fstream file1(filename + "helper1", std::ios::in | std::ios::binary);
